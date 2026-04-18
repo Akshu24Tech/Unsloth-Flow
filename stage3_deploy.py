@@ -3,7 +3,7 @@ from pathlib import Path
 from huggingface_hub import hf_hub_download, login
 
 HF_TOKEN          = os.environ.get("HF_TOKEN", "")
-HF_MODEL_REPO     = "Akshu2424/rick-llm-qwen3"
+HF_MODEL_REPO     = "username/rick-llm-qwen3"
 GGUF_FILENAME     = "rick-llm-qwen3-unsloth.Q4_K_M.gguf"
 OLLAMA_FILES      = Path("./ollama_files")
 OLLAMA_MODEL_NAME = "rick-llm"
