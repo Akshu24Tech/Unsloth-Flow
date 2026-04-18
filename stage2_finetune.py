@@ -6,8 +6,8 @@ from trl import SFTTrainer, SFTConfig
 from huggingface_hub import login
 
 HF_TOKEN        = os.environ["HF_TOKEN"]
-HF_DATASET_REPO = "Akshu2424/rick-llm-dataset-2026"
-HF_MODEL_REPO   = "Akshu2424/rick-llm-qwen3"
+HF_DATASET_REPO = "username/rick-llm-dataset-2026"
+HF_MODEL_REPO   = "username/rick-llm-qwen3"
 BASE_MODEL      = "unsloth/Qwen3-4B"
 OUTPUT_DIR      = "./outputs/rick-llm-qwen3"
 
