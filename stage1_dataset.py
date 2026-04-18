@@ -7,7 +7,7 @@ from groq import Groq
 
 HF_TOKEN        = os.environ["HF_TOKEN"]
 GROQ_API_KEY    = os.environ["GROQ_API_KEY"]
-HF_DATASET_REPO = "Akshu2424/rick-llm-dataset-2026"
+HF_DATASET_REPO = "username/rick-llm-dataset-2026"
 TRANSCRIPT_CSV  = "./data/RickAndMortyScripts.csv"
 OUTPUT_JSONL    = "./data/rick_dataset.jsonl"
 ENRICH_N        = 200  # set to None to enrich all
